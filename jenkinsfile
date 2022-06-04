@@ -6,7 +6,7 @@ stage('clone my java project') {
 
 
 
-stage('execute my maven target') {
+stage('execute maven target') {
     sh 'mvn install'
 }
     
